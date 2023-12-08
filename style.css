@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #0abab5;
+}
+
+.container {
+  width: 50%;
+  margin: 0;
+  background-color: #0abab5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: justify;
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  color: #666;
+}
+
+.diamond-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Tiffany Blue color scheme */
+.tiffany-blue {
+  color: #0abab5; /* Tiffany Blue */
+  border-color: #0abab5; /* Tiffany Blue */
+}
+
+.tiffany-bg {
+  background-color: #0abab5; /* Tiffany Blue */
+  color: #0abab5; /* White text on Tiffany Blue */
+}
+
+.tiffany-link {
+  color: #0abab5; /* Tiffany Blue */
+}
+
+/* Gallery styles */
+.gallery {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gallery-button {
+  padding: 10px 20px;
+  background-color: #0abab5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.gallery-content {
+  display: none;
+  margin-top: 20px;
+}
+
+.gallery-content.show {
+  display: block;
+}
+
+.gallery-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+/* Subscription styles */
+.subscription {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.subscription h2 {
+  color: #333;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.subscribe-form input[type="email"],
+.subscribe-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-form input[type="email"] {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.subscribe-form button {
+  background-color: #0abab5;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* Comments styles */
+.comments {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.comments h2 {
+  color: #333;
+}
+
+.comments p {
+  color: #666;
+}
+
+.comments-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0abab5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+

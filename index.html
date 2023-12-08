@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="tiffany-blue">Tiffany Diamond</h1>
+  </div>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+      color: #666;
+    }
+    .diamond-img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <button class="gallery-button">Show Gallery</button>
+    <div class="gallery-content">
+      <img src="images/1.jpeg" alt="Image 1">
+      <img src="images/2.jpeg" alt="Image 2">
+      <img src="images/3.jpeg" alt="Image 3">
+      <img src="images/4.jpeg" alt="Image 3">
+      <img src="images/5.jpeg" alt="Image 3">
+    </div>
+  <div class="container">
+    <h1>Tiffany Diamond</h1>
+    <img class="diamond-img" src="images/diamond1.webp" alt="Tiffany Diamond">
+    <h2>Make an appoinment to know the price and availability</h2>
+    <h2>About the Tiffany Diamond</h2>
+    <p>The Tiffany Diamond is one of the largest and finest yellow diamonds in the world, weighing 128.54 carats. It was discovered in the Kimberley diamond mines in South Africa in 1877 and acquired by Charles Lewis Tiffany, the founder of Tiffany & Co.</p>
+    <p>Its remarkable size, stunning color, and exquisite craftsmanship have made it one of the most iconic gemstones in history. The diamond has been worn by only a select few, including Audrey Hepburn during the promotional tour for "Breakfast at Tiffany's."</p>
+
+    <div class="specifications">
+      <h2>Specifications</h2>
+      <p>Weight: 128.54 carats</p>
+      <p>Color: Fancy Yellow</p>
+      <p>Shape: Cushion-cut</p>
+      <p>Clarity: Internally Flawless</p>
+    </div>
+    <p>To learn more about the Tiffany Diamond, visit <a href="https://www.tiffany.com/" target="_blank">Tiffany & Co. website</a>.</p>
+  </div>
+  <div class="subscription">
+    <h2>Subscribe for Updates</h2>
+    <p>Stay updated with the latest news and offers about the Tiffany Diamond.</p>
+    <form class="subscribe-form">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit" class="subscribe-button">Subscribe</button>
+    </form>
+  </div>
+  <div class="comments">
+    <h2>Clients Comments</h2>
+    <p>Check out what other clients are saying about the Tiffany Diamond:</p>
+    <a href="https://www.tiffany.ca/world-of-tiffany/about-jean-schlumberger/" class="comments-link">Read Comments</a>
+  </div>
+  <script>
+    // JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+      const galleryButton = document.querySelector('.gallery-button');
+      const galleryContent = document.querySelector('.gallery-content');
+
+      galleryButton.addEventListener('click', function() {
+        galleryContent.classList.toggle('show');
+      });
+    });
+  </script>
+</body>
+</html>
